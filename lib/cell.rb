@@ -4,4 +4,7 @@ class Cell
     1
   end
 
+  def dead
+  end
+
 end
