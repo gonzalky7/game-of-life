@@ -15,6 +15,7 @@ class Cell
   end
 
   def tick
+    true
   end
 
 end
