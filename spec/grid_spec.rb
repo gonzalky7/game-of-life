@@ -7,7 +7,7 @@ describe "A grid of cells" do
   end
 
   it 'needs a width and height to be created' do
-    expect(grid.create).to be_truthy
+    expect(grid).to receive(:create)
   end
 
   xit 'exposes a collection of cells' do

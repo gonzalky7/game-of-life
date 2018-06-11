@@ -1,6 +1,6 @@
 class Grid
 
-  def create
+  def create(height,width)
     true
   end
 
