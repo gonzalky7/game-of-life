@@ -1,6 +1,7 @@
 class Cell
 
-  def alive 
+  def alive
+    1
   end
 
 end
