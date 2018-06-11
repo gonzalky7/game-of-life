@@ -5,6 +5,7 @@ class Cell
   end
 
   def dead
+    0
   end
 
 end
