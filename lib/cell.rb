@@ -5,7 +5,7 @@ class Cell
   def initialize
     @neighbors = []
   end
-  
+
   def alive
     1
   end
@@ -14,6 +14,7 @@ class Cell
     0
   end
 
-
+  def tick
+  end
 
 end
