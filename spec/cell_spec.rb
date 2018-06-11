@@ -1,8 +1,9 @@
 require_relative '../lib/cell'
+require_relative '../lib/neighbor'
 
 describe "A cell" do
   let(:cell) { Cell.new }
-  let(:neighbor) { Neighbors.new }
+  let(:neighbor) { Neighbor.new }
 
   it 'exists' do
     Cell.new
@@ -17,8 +18,7 @@ describe "A cell" do
   end
 
   it 'has neighbors, which is initially an empty array' do
-    cell.neighbors << neighbor
-    expect(cell).to be_empty
+    expect(cell.neighbors).to be_empty
   end
 
   xit 'has a tick method' do

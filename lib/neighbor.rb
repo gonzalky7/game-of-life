@@ -1,0 +1,3 @@
+class Neighbor
+
+end
